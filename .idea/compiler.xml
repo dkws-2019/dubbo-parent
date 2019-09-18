@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common-util" />
         <module name="dubbo-api" />
         <module name="dubbo-custom" />
+        <module name="dubbo-domain" />
+        <module name="dubbo-mapper" />
         <module name="dubbo-parent" />
         <module name="dubbo-provider" />
+        <module name="provider" />
       </profile>
     </annotationProcessing>
   </component>

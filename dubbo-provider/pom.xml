@@ -36,7 +36,15 @@
         <dependency>
             <groupId>com.alibaba.spring.boot</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
-
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.liuchao</groupId>
+            <artifactId>common-util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!--zkclient依赖-->
         <dependency>
@@ -48,6 +56,16 @@
             <artifactId>dubbo-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.liuchao</groupId>
+            <artifactId>dubbo-mapper</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+       <!-- <dependency>
+            <groupId>com.liuchao</groupId>
+            <artifactId>dubbo-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>-->
     </dependencies>
 
     <build>

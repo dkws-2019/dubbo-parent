@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-custom/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-mapper/pom.xml" />
       </list>
     </option>
   </component>

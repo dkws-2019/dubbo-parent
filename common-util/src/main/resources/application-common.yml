@@ -1,0 +1,9 @@
+jwt:
+  keytoolsPath: D:/jwt/jwt.jks
+  keytoolsAlias: jwt
+  keytoolsPassword: 264100
+  expirationSeconds: 1000
+  allows:
+  - /api/userLogin
+  - /error
+  - /api/scyzm

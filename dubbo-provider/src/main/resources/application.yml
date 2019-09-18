@@ -1,4 +1,7 @@
+
 dubbo:
+  consumer:
+    check: false
   application:
     name: provider
   registry:
@@ -6,5 +9,9 @@ dubbo:
   protocol:
     name: dubbo
     port: 20880
+
 server:
   port: 8081
+spring:
+  profiles:
+    include: db,mapper

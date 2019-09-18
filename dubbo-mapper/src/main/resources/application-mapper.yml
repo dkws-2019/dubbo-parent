@@ -1,0 +1,7 @@
+mapper:
+  identity: mysql
+  not-empty: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*Mapper.xml

@@ -3,8 +3,9 @@ package com.liuchao.dubbocustom;
 import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.liuchao"},exclude = DataSourceAutoConfiguration.class)
 @EnableDubboConfiguration
 public class DubboCustomApplication {
 

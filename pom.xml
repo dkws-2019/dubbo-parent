@@ -16,6 +16,7 @@
     <modules>
         <module>dubbo-provider</module>
         <module>dubbo-custom</module>
+        <module>provider</module>
     </modules>
     <dependencyManagement>
         <dependencies>

@@ -1,9 +1,12 @@
 dubbo:
+  consumer:
+    check: false
   application:
     name: custom
   registry:
     address: zookeeper://localhost:2181
-
-
 server:
   port: 8082
+spring:
+  profiles:
+    include: common
